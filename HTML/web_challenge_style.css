@@ -1,0 +1,106 @@
+/* Navbar Styling */
+
+.navbar-brand
+{
+  margin-left: 10px;
+  padding: 10px;
+  background-color: rgb(19, 133, 114);
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 25px;
+}
+
+.navbar
+{
+  padding-top:0px;
+  padding-bottom: 0px;
+  padding-right:40px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 25px;
+  background-color: rgb(19, 133, 114);
+}
+
+.nav-item.dropdown.show 
+{
+  background-color: rgb(19, 133, 114);
+}
+
+.dropdown-menu 
+{
+  margin: 0;
+}
+/* content styling*/
+.content 
+{
+  padding-top: 50px;
+  padding-bottom: 80px;
+  overflow: hidden;
+}
+.content.bg-white
+ {
+  margin-top: 15px;
+}
+/*footer styling*/
+.page-footer
+{
+  background-color: rgb(120, 167, 170);
+  margin-top: 50px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+/* fontstyling for text*/
+p
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+  padding:10px;
+}
+.dropdown-menu 
+{
+  margin: 0;
+}
+body
+{
+  background-color: rgb(223, 222, 222);
+}
+.col-md-12
+{
+  background-color: white;
+  padding-top: 20px;
+  padding-bottom:40px;
+}
+.img-thumbnail
+{
+  padding:10px;
+  border: none;
+}
+h3{
+  color: rgb(81, 175, 160);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  padding: 15px;
+}
+/*Body*/
+/* Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) { ... }
+
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 767.98px) { ... }
+
+// Medium devices (tablets, less than 992px)
+@media (max-width: 991.98px) { ... }
+
+// Large devices (desktops, less than 1200px)
+@media (max-width: 1199.98px) { ... }*/
+/* small screen adjustments*/
+@media(max-width:767px){
+  .navbar.bg-light{
+      background-color: rgb(81, 175, 160)!important;    
+  }
+
+  .navbar-collapse{
+      background-color: #f8f9fa;
+  }
+  .navbar{
+      padding:inherit;
+  }
+}
