@@ -82,6 +82,11 @@ Be sure to use a CSS media query for the navigation menu.
 Be sure your website works at all window widths/sizes.
 Feel free to take some liberty in the visual aspects, but keep the core functionality the same.
 
+![plot](./images/data-lg.png)
+
+![plot](./images/landing-sm.png)
+
+![plot](./images/visualize-lg.png)
 
 Bonuses
 
